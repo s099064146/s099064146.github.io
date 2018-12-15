@@ -1,0 +1,158 @@
+body {
+	font-family: 'Noto Serif SC', 'Roboto Condensed', serif;
+}
+.resume {
+	background-color: #84dccf;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 840px;
+	height: 1188px;
+}
+
+.header {
+	background-color: #312f2f;
+	color: #f6e8ea;
+	
+	width: 100%;
+	height: 13%;
+	float: left;
+	margin-top: 15px;
+}
+
+.name-section {
+	position: relative;
+	left: 5%;
+	top: 10%;
+	width: 60%;
+	height: 100%;
+	float: left;
+	margin: auto;
+}
+
+.info-section {
+	position: relative;
+	right: 5%;
+	top: 10%;
+	width: 40%;
+	float: left;
+	text-align: right;
+}
+
+.content {
+	background-color: #f6e8ea;
+	color: #22181c;
+	
+	width: 100%;
+	height: 84.5%;
+	float: left;
+	padding: 0;
+}
+
+.section {
+	width: 100%;
+	float: none;
+}
+
+.section-title {
+	margin: 5px 40px;
+	margin-bottom: 8px; 
+	border-bottom: 2px solid #aaaaaa;
+	font-size: 18px;
+	padding-bottom: 5px;
+	font-weight: 900;
+}
+
+.section-content {
+	margin: 0 40px;
+}
+
+.obj-sec {
+	margin-top: 3%;
+	height: 10%;
+}
+
+.skill-sec {
+	height: 9%;
+}
+
+.exp-sec {
+	height: 54%;
+}
+
+.edu-sec {
+	height: 12%;
+}
+
+
+.skill-item {
+	background-color: #312f2f;
+	color: #f6e8ea;
+	width: auto;
+	float: left;
+	
+	padding: 10px;
+	border-radius: 5px;
+	margin: 0 5px;
+
+	font-size: 13px;
+}
+
+.exp-section > h4 {
+	margin: 5px 0;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.exp-section > h5 {
+	margin: 5px 0;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.exp-section > ul {
+	margin: 10px;
+}
+
+.exp-section li {
+	margin: 10px;
+	font-size: 15px;
+}
+
+.edu-section {
+	float: left;
+	margin-left: 15px; 
+}
+
+.edu-section > h4 {
+	margin: 0 5px;
+	font-size: 15px;
+}
+
+.edu-section > h5 {
+	margin: 0 5px;
+	font-size: 13px;
+}
+
+.edu-section > h6 {
+	margin: 0 5px;
+	font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .resume {
+	background-color: #003249;
+  }
+  .header {
+	background-color: #007ea7;
+	color: #f6e8ea;
+  }
+  .content {
+	background-color: #ccdbdc;
+	color: #22181c;
+  }
+  .skill-item {
+	background-color: #007ea7;
+	color: #f6e8ea;
+  }
+}
